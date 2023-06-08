@@ -26,7 +26,7 @@ if "jwt" not in st.session_state:
     st.session_state.jwt = None
 
 # Ikomia Scale URL
-IKSCALE_URL=URL("https://scale.ikomia.net")
+IKSCALE_URL=URL("https://scale.ikomia.ai")
 
 # Ikomia Scale project ID
 PROJECT_ID="0187e1a4-19bf-4758-a517-2eda4a93eac1"
